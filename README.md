@@ -20,4 +20,4 @@ cargo run -- -d 5 --no_demod -f 103500000 -s 250000 > raw.dat
 
 To then view the spectral data, you can use the script in plot_iq_psd
 
-python ../../plot-iq-psd/plot_iq_spectrum.py 103500000 250000 raw.dat
+python plot_iq_spectrum.py 103500000 250000 raw.dat
