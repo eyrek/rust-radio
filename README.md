@@ -1,4 +1,4 @@
-### rust-radio
+## rust-radio
 
 Simple FM Radio App for RTL-SDR that functions as both a command-line program as well as library. 
 
