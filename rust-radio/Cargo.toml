@@ -1,7 +1,19 @@
 [package]
 name = "rust-radio"
 version = "0.1.0"
-authors = ["erichhart93@gmail.com"]
+authors = ["Erich Hart <erichhart93@gmail.com>"]
+
+[lib]
+name = "rust_radio"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rust_radio"
+path = "src/main.rs"
 
 [dependencies]
 rtlsdr = "0.1.4"
+num = "0.1"
+structopt = "0.2.8"
+[dependencies.liquid_dsp]
+git = "https://github.com/cubehub/rust-liquid-dsp.git"
