@@ -9,9 +9,13 @@ It is primarily a wrapper around rtlsdr-rs (https://github.com/adamgreig/rtlsdr-
 Requires RTL-SDR dongle as well as librtlsdr driver to be install (available as package librtlsdr-dev on Ubuntu or follow steps on http://osmocom.org/projects/sdr/wiki/rtl-sdr)
 
 rtlsdr = "0.1.4"
+
 num = "0.1"
+
 structopt = "0.2.8"
+
 [dependencies.liquid_dsp]
+
 git = "https://github.com/cubehub/rust-liquid-dsp.git"
 
 ### Usage
