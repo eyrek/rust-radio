@@ -1,7 +1,8 @@
-## rust-radio
-#FM Radio App for RTL-SDR
+### rust-radio
 
-This is a simple radio app (Read I/Q Samples -> demodulate them) that functions as both a command-line program as well as library. It is primarily a wrapper around rtlsdr-rs (https://github.com/adamgreig/rtlsdr-rs) and uses rust binding for liquid_dsp ("https://github.com/cubehub/rust-liquid-dsp.git") for the demodulation.
+Simple FM Radio App for RTL-SDR that functions as both a command-line program as well as library. 
+
+It is primarily a wrapper around rtlsdr-rs (https://github.com/adamgreig/rtlsdr-rs) and uses rust binding for liquid_dsp ("https://github.com/cubehub/rust-liquid-dsp.git") for the demodulation.
 
 ## Usage
 
